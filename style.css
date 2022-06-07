@@ -1,11 +1,10 @@
 body {
-  /* display: flex; */
   font-family: "Roboto", sans-serif;
-  /* flex-direction: column; */
   padding: 0%;
   margin: 0;
 }
 
+/* Hero Section */
 #hero {
   display: flex;
   flex-direction: column;
@@ -66,4 +65,38 @@ button {
   height: 40px;
   width: 150px;
   padding: 0;
+}
+
+/* Images Section */
+
+#images-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid red;
+  text-align: center;
+}
+
+#images-section-header {
+  border: 1px solid green;
+  margin: 13px;
+  padding: 10px;
+  font-size: 36px;
+}
+
+figure {
+  border: 1px solid #3882f6;
+  border-radius: 8px;
+}
+figure figcaption {
+  display: table-caption;
+  text-align: center;
+  caption-side: bottom;
+}
+
+#images-section-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
