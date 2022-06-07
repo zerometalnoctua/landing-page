@@ -173,3 +173,12 @@ q::before {
 }
 
 /* footer */
+
+#footer {
+  display: flex;
+  background-color: #1f2937;
+  height: 70px;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
