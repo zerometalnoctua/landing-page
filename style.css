@@ -102,3 +102,34 @@ figure figcaption {
   flex-direction: row;
   justify-content: center;
 }
+
+/* Testimonial Section */
+
+#testimonial-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  height: 550px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+q {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+q::after {
+  content: none !important;
+}
+
+q::before {
+  content: none !important;
+}
