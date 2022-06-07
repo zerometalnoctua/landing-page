@@ -74,25 +74,27 @@ button {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  border: 1px solid red;
   text-align: center;
+  background-color: #ffff;
+  height: 550px;
 }
 
 #images-section-header {
-  border: 1px solid green;
   margin: 13px;
   padding: 10px;
-  font-size: 36px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 
 figure {
-  border: 1px solid #3882f6;
   border-radius: 8px;
 }
 figure figcaption {
   display: table-caption;
   text-align: center;
   caption-side: bottom;
+  color: rgb(100, 99, 99);
 }
 
 #images-section-images {
